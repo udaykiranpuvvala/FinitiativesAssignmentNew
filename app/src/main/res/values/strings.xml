@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FinitiativesAssignment</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="coins">Coins</string>
+    <string name="watchers">Watchers</string>
+    <string name="events">Events</string>
+    <string name="back">back</string>
+    <string name="ok">OK</string>
+    <string name="please_check_internet">Please Check Internet Connection</string>
+    <string name="something_went_wrong">Something Went Wrong... Try Again...</string>
+    <string name="add_some_coins_for_currencies">Add Some Coins for Currencies</string>
+    <string name="select_start_date">Select Start Date</string>
+    <string name="select_end_date">Select End Date</string>
+    <string name="name">Name</string>
+    <string name="symbol">Symbol</string>
+    <string name="block_time">Block Time in Minutes</string>
+    <string name="description">Description</string>
+</resources>

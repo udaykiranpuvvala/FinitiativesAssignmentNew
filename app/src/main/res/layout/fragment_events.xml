@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipeRefreshLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnStartDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/button_bg"
+            android:drawableEnd="@drawable/ic_calendar"
+            android:elevation="@dimen/_5sdp"
+            android:paddingEnd="@dimen/_15sdp"
+            android:text="@string/select_start_date" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerViewEvents"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_10sdp"
+            android:overScrollMode="never"
+            android:scrollbars="none" />
+
+    </LinearLayout>
+</android.support.v4.widget.SwipeRefreshLayout>
